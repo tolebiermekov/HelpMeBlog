@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color:#000
+}
+header{
+    width:100%;
+    background:#000;
+    display:flex;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size:24px;
+    cursor: pointer;
+    margin-top: 46px;
+    margin-left: 7%;
+}
+nav{
+    margin-top: 56px;
+    margin-left: 47%;
+}
+.topnav a{
+    color:  #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.topnav a:hover{
+    border-bottom: 3px solid #8a2be2;
+}
+.main_welcome{
+    background: url(img/back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 260px 0 410px 0;
+    padding-left: 100px;
+}
+.main_welcome h1, p{
+    color: #fff;
+}
+.main_welcome h1:after{
+    display: none;
+}
+.companyName{
+    color: #8a2be2;
+}
+#btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container p{
+    color: black;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+}
+.container a:hover{
+    color: deepskyblue;
+}
+#edit:hover{
+    color: deepskyblue;
+}
+.main_stories{
+    background: #fff;
+    text-align: center;
+    color: #000;
+
+}
+.main_stories h1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #8a2be2;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.form-group{
+    width: 75%;
+}
+.main_share{
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 170px;
+    padding: 100px 0 200px 0;
+}
+.main_share h1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #8a2be2;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 1rem;
+    padding-left: 25%;
+
+}
+.like, .dislike {
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 50px 0 50px 0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin-left: 14px;
+}
+.social img:hover{
+    opacity: 0.64;
+}
+.copy{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.content{
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    background: black;
+}
+.main_user{
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 170px;
+    padding: 100px 0 200px 0;
+}
+.main_user h1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #8a2be2;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.content p{
+    color: white;
+}
